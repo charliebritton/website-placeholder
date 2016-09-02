@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-image: url(background-image.jpg);
+  background-size: cover;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.viewport {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  height: auto;
+  width: 33%;
+  background-color: white;
+  border-radius: 1vh;
+  justify-content: center;
+  align-items: center;
+  border: 0.25vh solid #808080;
+}
+
+.title {
+  font-size: 6vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 1vh;
+}
+
+.subtitle {
+  font-size: 4vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 1vh 1vh 1vh;
+}
