@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-image: url(background-image.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 p {
@@ -22,7 +23,8 @@ p {
 
 .text-box {
   height: auto;
-  width: 33%;
+  width: auto;
+  margin: 1vh;
   background-color: white;
   border-radius: 1vh;
   justify-content: center;
