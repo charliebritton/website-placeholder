@@ -13,6 +13,10 @@ p {
     -webkit-margin-end: 0px;
 }
 
+a {
+  color: white;
+}
+
 .viewport {
   display: flex;
   width: 100vw;
@@ -44,4 +48,14 @@ p {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   padding: 0 1vh 1vh 1vh;
+}
+
+.footer {
+  font-size: 1vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 1vh 1vh 1vh;
+  color: white;
+  position: absolute;
+  bottom: 0;
 }
